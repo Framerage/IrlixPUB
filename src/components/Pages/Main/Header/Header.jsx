@@ -1,6 +1,6 @@
 import React from "react";
 import './header.css';
-//import './DateSCR.js';
+import './DateSCR.js';
 const Header = ({options,value,onChange,pageName})=> {
     return (
         <div className="header">
