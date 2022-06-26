@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "./Header/Header";
-// import './styles/mainstyle.css';
+import '../../../styles/mainstyle.css';
 import Footer from "./Footer/Footer";
 import Content from "./Content/Content";
 import Blackberry from "./Content/cards/bg-cards/Blackberry.png";
