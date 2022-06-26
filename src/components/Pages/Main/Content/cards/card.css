@@ -1,0 +1,159 @@
+.card_block{
+    min-height: 421px;
+    min-width: 10%;
+}
+.card__back{   
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 320px;
+    min-width: 10%; 
+    max-width: 100%;   
+    min-height: 421px;
+    max-height: auto;
+    border-radius: 40px;
+    margin: 14px 16px;     
+}
+.zoom{
+    transition: transform .200ms;
+    position: relative;
+}
+.zoom:hover{
+    transform: scale(1.03);    
+}
+.sentence__discont{
+    background-color: #0E0D13;
+    border-radius: 24px;    
+    min-width: 5%;
+    max-height: auto;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    margin: 5%;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 6em;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.sentence__classification{
+    color: #C4C1CF;
+    font-size: 0.6em;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+    bottom: 5%;    
+}
+.sentence__fav__checkbox{
+    position: absolute;
+    left: 80%;
+    top: 3.2%;
+    z-index: 100;
+}
+.sentence__fav__checkbox:hover{
+    transform: scale(1.2);
+    top: 4%;    
+}
+.sentence__window_scroll{    
+    background-color:transparent;    
+    max-width: 100%;
+    width: 256px;
+    height: 50px;
+    position: relative;   
+    overflow:hidden;
+    transition: transform .200ms;
+    top: 340px; 
+    padding-left: 32px;
+    padding-right: 32px;    
+}
+.sentence__window_scroll:hover{   
+    background-image: url(./images-cards/bgrecept.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 35px 35px;
+    max-width: 100%; 
+    min-height: 66em;
+    overflow-y: auto;
+    padding-top: 32px;
+    top: 125px;
+    z-index: 1;
+}
+.sentence__window_scroll::-webkit-scrollbar{
+    width: 0;
+}
+.card__empty__text{
+    height: 421px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.sentence__product {
+    font-style: normal;
+    font-weight: 700px;
+    color: white;    
+    font-size: 6em; 
+}
+.sentence__chapter{
+    font-style: normal;
+    font-weight: normal;
+    color: #C4C1CF;
+    font-size: 4.5em; 
+}
+.recipe_top{    
+    top: 95px;
+    position: absolute;        
+    text-align: left;      
+    color: white;
+    font-size: 4.5em;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700; 
+    font-style: normal;   
+}
+.ingrid_top{  
+    color: #C4C1CF;
+    font-style: normal;
+    font-family: 'Roboto',sans-serif; 
+    position: relative;
+    top: 42px;
+    font-weight: 300;
+    font-size: 4.5em;
+    z-index: 1000;
+ }
+.ingrid_top:after {
+    content: '. . . . . . . . . . . . . . . . . . . . . ';
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .param__ingrid {
+    float: left;
+    margin-bottom: -.31em;
+  }
+  .param__value {
+    float: right;
+    margin-bottom: -.31em;
+  }
+.recipe_bottom{        
+    top: 58px;
+    position: relative;        
+    text-align: left;      
+    color: white;
+    font-size: 4.5em;
+    font-family: 'Roboto',sans-serif; 
+    font-weight: 700; 
+    font-style: normal;   
+}
+.ingrid_bottom{       
+    color: #C4C1CF;
+    font-style: normal;
+    font-family: 'Roboto',sans-serif; 
+    position: relative;
+    top: 66px;
+    margin-right:29px;;
+    font-weight: 300;
+    font-size: 4.5em;
+    text-align: justify;
+    z-index: 1000;
+    width: 250px;
+}

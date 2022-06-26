@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import DetailedPage from "./components/Pages/DetailPage/DetailedPage";
+import Main from "./components/Pages/Main/Main";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  let idKeyDetail= new Date().getTime();
+  let idKeyMain= new Date().getHours();
+  //console.log(idKeyMain)
+  return(
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Main key={idKeyMain}/>}/>
+        <Route path="/detailed/" element={<DetailedPage key={idKeyDetail} />}/>
+      </Routes>        
+    </BrowserRouter>
+  )
 }
 
 export default App;
