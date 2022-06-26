@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/irlixpub/static/css/main.e313b16c.css",
-    "main.js": "/irlixpub/static/js/main.4510a189.js",
-    "static/media/Blackberry.png": "/irlixpub/static/media/Blackberry.3078b24d0aa3375a3324.png",
-    "static/media/Mohito.png": "/irlixpub/static/media/Mohito.de5eb3358899511e0b4d.png",
-    "static/media/empty.jpg": "/irlixpub/static/media/empty.61dc9774a3a995467e92.jpg",
-    "static/media/Glegi.jpg": "/irlixpub/static/media/Glegi.5b1cf0ffefbcdf4d4cc9.jpg",
-    "static/media/bgrecept.jpg": "/irlixpub/static/media/bgrecept.9fb3b90f955bf31d4728.jpg",
-    "static/media/Logo.svg": "/irlixpub/static/media/Logo.03643369b1723eae6e36.svg",
-    "index.html": "/irlixpub/index.html",
-    "main.e313b16c.css.map": "/irlixpub/static/css/main.e313b16c.css.map",
-    "main.4510a189.js.map": "/irlixpub/static/js/main.4510a189.js.map"
+    "main.css": "/static/css/main.448ff37f.css",
+    "main.js": "/static/js/main.5a0da7d5.js",
+    "static/media/Blackberry.png": "/static/media/Blackberry.3078b24d0aa3375a3324.png",
+    "static/media/Mohito.png": "/static/media/Mohito.de5eb3358899511e0b4d.png",
+    "static/media/empty.jpg": "/static/media/empty.61dc9774a3a995467e92.jpg",
+    "static/media/Glegi.jpg": "/static/media/Glegi.5b1cf0ffefbcdf4d4cc9.jpg",
+    "static/media/bgrecept.jpg": "/static/media/bgrecept.9fb3b90f955bf31d4728.jpg",
+    "static/media/Logo.svg": "/static/media/Logo.03643369b1723eae6e36.svg",
+    "index.html": "/index.html",
+    "main.448ff37f.css.map": "/static/css/main.448ff37f.css.map",
+    "main.5a0da7d5.js.map": "/static/js/main.5a0da7d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e313b16c.css",
-    "static/js/main.4510a189.js"
+    "static/css/main.448ff37f.css",
+    "static/js/main.5a0da7d5.js"
   ]
 }
