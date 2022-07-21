@@ -49,7 +49,7 @@ const DetailedPage = () => {
         id={dtST.top_block}
         style={{ backgroundImage: `url(${image_name})` }}
       >
-        <Link to="/">
+        <Link to="/irlixpub/">
           <div id={dtST.turn_back} 
           onClick={localStorage.clear()}>
             {"<"}
