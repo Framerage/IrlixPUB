@@ -9,8 +9,8 @@ function App() {
   return(
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Main key={idKeyMain}/>}/>
-        <Route path="/detailed/" element={<DetailedPage key={idKeyDetail} />}/>
+        <Route exact path="/irlixpub/" element={<Main key={idKeyMain}/>}/>
+        <Route path="/irlixpub/detailed/" element={<DetailedPage key={idKeyDetail} />}/>
       </Routes>        
     </BrowserRouter>
   )
