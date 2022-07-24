@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/irlixpub/static/css/main.e313b16c.css",
-    "main.js": "/irlixpub/static/js/main.adb8dd0c.js",
+    "main.css": "/irlixpub/static/css/main.a8dace07.css",
+    "main.js": "/irlixpub/static/js/main.98369a3b.js",
     "static/media/Blackberry.png": "/irlixpub/static/media/Blackberry.3078b24d0aa3375a3324.png",
     "static/media/Mohito.png": "/irlixpub/static/media/Mohito.de5eb3358899511e0b4d.png",
     "static/media/empty.jpg": "/irlixpub/static/media/empty.61dc9774a3a995467e92.jpg",
@@ -9,11 +9,11 @@
     "static/media/bgrecept.jpg": "/irlixpub/static/media/bgrecept.9fb3b90f955bf31d4728.jpg",
     "static/media/Logo.svg": "/irlixpub/static/media/Logo.03643369b1723eae6e36.svg",
     "index.html": "/irlixpub/index.html",
-    "main.e313b16c.css.map": "/irlixpub/static/css/main.e313b16c.css.map",
-    "main.adb8dd0c.js.map": "/irlixpub/static/js/main.adb8dd0c.js.map"
+    "main.a8dace07.css.map": "/irlixpub/static/css/main.a8dace07.css.map",
+    "main.98369a3b.js.map": "/irlixpub/static/js/main.98369a3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e313b16c.css",
-    "static/js/main.adb8dd0c.js"
+    "static/css/main.a8dace07.css",
+    "static/js/main.98369a3b.js"
   ]
 }
